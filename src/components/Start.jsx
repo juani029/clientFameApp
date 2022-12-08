@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../image/imagen_logotipo.png'
 // import Typical from 'react-typical'
 
 const Start = () => {
@@ -21,7 +22,7 @@ const Start = () => {
          </h2>
       </div>
       <div className='max-w-[300px] w-[100%] px-[10px]'>
-        <img src="src/image/imagen_logotipo.png" />
+        <img src={logo} />
       </div>
     
       <div className=' top-[0] flex flex-col justify-center items-end gap-4 px-[5px]  sm:gap-2'  >

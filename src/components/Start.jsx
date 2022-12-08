@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 
 const Start = () => {
   return (
@@ -9,14 +9,15 @@ const Start = () => {
     >
       <div className=' top-[0] flex flex-col justify-center items-center gap-4 px-[5px]  sm:gap-2'  >
         <h2 className=" text-[clamp(1.5rem,7vw,3rem)] w-max h-max">
-          <Typical 
+          {/* <Typical 
             loop = {Infinity}
             wrapper = 'c'
             steps={[
               'Hola soy FAME', 3000,
               'BIENVENIDO', 3000 
             ]}
-          />
+          /> */}
+          Hola soy FAME
          </h2>
       </div>
       <div className='max-w-[300px] w-[100%] px-[10px]'>

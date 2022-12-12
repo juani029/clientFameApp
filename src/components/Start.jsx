@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Typical from 'react-typical';
 
 const Start = () => {
   return (

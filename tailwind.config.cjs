@@ -13,6 +13,8 @@ module.exports = {
     extend: {
       boxShadow: {
         '228b': '2px 2px 8px rgba(0,0,0)',
+        '123g': '2px 2px 8px rgba(244,113,126)',
+        '555b': '0px 0px 8px rgba(244,113,126)',
       },
       animation: {
         'ext-slow': 'ext 3s ease-in-out infinite',
@@ -24,8 +26,9 @@ module.exports = {
         },
       },
       dropShadow: {
-        '228b': '2px 2px 8px rgba(0,0,0)'
-      }
+        '228b': '2px 2px 8px rgba(0,0,0)',
+        '123g': '0px 0px 5px rgba(244,113,126)',
+      },
     },
     colors: {
       primary: '#3D6487',
@@ -40,9 +43,9 @@ module.exports = {
       gray: '#f0f0f0',
       grayOscuro: '#cdcdcd',
     },
-    fontFamily:{
-      roboto:[ 'Roboto', 'sans-serif']
-    }
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+    },
   },
   plugins: [],
 };

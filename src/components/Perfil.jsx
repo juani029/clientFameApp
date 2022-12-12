@@ -157,7 +157,7 @@ function Perfil() {
               <div className="flex justify-center">
                 <button
                   type="submit"
-                  onClick={() => handleSubmit()}
+                  onClick={handleSubmit}
                   className=" w-full lg:w-1/2 text-lg py-2  mb-4 bg-third rounded-lg text-gray-800 font-bold active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all  active:hover:bg-[#b1656c]  disabled:cursor-not-allowed text-[#ffffff] mt-4"
                 >
                   Confirmar

@@ -22,14 +22,15 @@ const Start = () => {
         <img src={logo} />
       </div>
 
-      <div className=" top-[0] flex flex-col justify-center items-end gap-4 px-[5px]  sm:gap-2">
+      <div className=" top-[0] flex flex-col justify-center gap-4 px-[5px]  sm:gap-2">
         <p className=" text-[clamp(1rem,7vw,2rem)] w-screen h-max text-center px-[10px]">
           Este es un espacio seguro creado para ti
         </p>
-        <Link to="/home">
-          <button className="text-2xl rounded-[10px] text-secondary  hover:bg-slate-600 hover:text-third hover:scale-[1.1] mr-[25vw] mt-[20px]">
-            <span className=" text-base">Comencemos ▶</span>{' '}
-          </button>
+        <Link
+          className="text-center m-auto w-1/2 md:w-[30%] text-3xl mb-4 p-4 bg-third rounded-lg text-gray-800 font-bold active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all  active:hover:bg-[#b1656c] text-[#ffffff] mt-4"
+          to="/home"
+        >
+          Comenzar
         </Link>
       </div>
     </div>
